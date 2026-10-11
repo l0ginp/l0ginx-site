@@ -1,0 +1,30 @@
+:root{--bg:#0d0b10;--panel:#17131c;--line:#2b2433;--text:#e9e4ef;--muted:#a59cb0;--gold:#e0b45a;--ember:#d8643a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--gold)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;letter-spacing:.04em;font-size:20px;color:var(--text);text-decoration:none}
+.logo span{color:var(--gold)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:var(--text)}
+.hero{padding:72px 0 48px;background:radial-gradient(ellipse at 50% 0%,#3a1f1a 0%,transparent 65%)}
+.hero h1{font-size:clamp(30px,5vw,46px);line-height:1.15;margin:0 0 14px}
+.hero p{color:var(--muted);font-size:18px;max-width:620px;margin:0 0 28px}
+.btn{display:inline-block;background:var(--gold);color:#1a1206;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;margin:0 10px 10px 0}
+.btn.ghost{background:none;color:var(--text);border:1px solid var(--line)}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:24px;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.price{color:var(--gold);font-weight:700}
+.tag{display:inline-block;font-size:12px;color:var(--ember);border:1px solid var(--ember);border-radius:99px;padding:1px 10px;margin-bottom:10px}
+.doc h1{font-size:32px;margin:40px 0 4px}
+.doc .updated{color:var(--muted);font-size:14px;margin-bottom:28px}
+.doc h2{font-size:20px;margin:28px 0 8px}
+.doc p,.doc li{color:#d4cedb}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px}
+footer a{color:var(--muted);margin-right:16px}
